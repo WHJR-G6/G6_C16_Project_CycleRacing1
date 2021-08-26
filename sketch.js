@@ -14,7 +14,7 @@ function setup(){
 createCanvas(600,600);
   
 // Moving background
-path=createSprite(100,150);
+path=createSprite(300,300);
 path.scale=2
 path.addImage(pathImg);
 path.velocityX = -7;
